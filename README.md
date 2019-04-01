@@ -4,7 +4,7 @@ This is a minimalist PyTorch implementation of the label inducer in [1]. For the
 
 ### Requirement
 
-The code is in Python 3.6 and uses PyTorch version `1.0.1.post2`.
+The code is in Python 3.6 and uses PyTorch version `1.0.1.post2`. Tested with Geforce RTX 2080 Ti and CUDA version `10.1.105`.
 
 ### Data
 
@@ -14,7 +14,7 @@ You can get the universal treebank v2.0 at [3] (McDonald et al., 2013), which pr
 
 ```bash
 python main.py example-model example.words --train --epochs 10 --num_labels 3
-python main.py en45-model $EN45PATH/en.words --train --num_labels 45 --epochs 5 --cuda
+python main.py en45-model ${EN45PATH}/en.words --train --num_labels 45 --epochs 5 --cuda --clusters clusters.txt --pred pred.txt
 ```
 
 Output logged in file `en45-model.log`
