@@ -34,7 +34,7 @@ Training time 0:13:23
 
 ### References
 
-[1] Mutual Information Maximization for Simple and Accurate Part-Of-Speech Induction (Stratos, 2018)
+[1] [Mutual Information Maximization for Simple and Accurate Part-Of-Speech Induction (Stratos, 2018)](https://www.aclweb.org/anthology/N19-1113)
 
 [2] https://github.com/karlstratos/iaan
 
